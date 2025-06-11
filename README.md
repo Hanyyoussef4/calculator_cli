@@ -6,6 +6,7 @@ This is a command-line calculator application built in Python.
 It allows the user to perform basic arithmetic operations via a REPL (Read-Eval-Print Loop) interface.
 
 Supported operations:
+
 - add
 - subtract
 - multiply
@@ -18,21 +19,26 @@ Supported operations:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 ### 2️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### Running the Calculator
 
 ```bash
 python main.py
+```
+
 ### Running Tests
 
 ```bash
 pytest --cov=app --cov-report=term
+```
 
 ### GitHub Actions CI
 
-- GitHub Actions is configured to run tests and enforce 100% coverage on every push.
+- GitHub Actions is configured to run tests and enforce **100% test coverage** on every push.
